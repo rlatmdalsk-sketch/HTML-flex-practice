@@ -1,0 +1,204 @@
+
+body{
+    margin: auto;
+    width: 100vw;
+}
+
+
+header{
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    background: lightgray;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+    flex:2;
+}
+
+.left-menu{
+    display: flex;
+    background: lightgray;
+
+}
+
+.left-menu-tab{
+    display: flex;
+    border: 1px solid;
+    flex:1;
+    padding: 20px;
+}
+
+
+.left-main-one{
+    display: flex;
+}
+
+.left-main-one-ballad{
+    border: 1px solid;
+    flex:2;
+    padding: 20px;
+}
+
+.gray{
+    color: #706b6b;
+}
+
+.left-main-one-death{
+    border: 1px solid;
+    flex:1;
+    padding: 20px;
+}
+
+
+.left-main-two{
+    display: flex;
+
+}
+
+.left-main-two-img{
+    border: 4px solid white;
+    flex:1;
+    background: url("https://picsum.photos/seed/picsum/400/300");
+
+}
+
+
+.left-main-two-tabone{
+    border: 1px solid;
+    border-bottom-right-radius: 20px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:16px;
+    gap:40px;
+}
+
+.left-main-two-tabone-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.left-main-two-tabtwo{
+    border: 1px solid;
+    flex: 1;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.left-main-two-tabtwo-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-footer{
+    display: flex;
+}
+
+.left-footer-one{
+    border: 1px solid;
+    border-top-right-radius: 20px;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding: 20px;
+}
+
+.left-footer-one-tabone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-footer-two{
+    border: 1px solid;
+    border-top-left-radius: 20px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    background: lightgray;
+}
+
+
+
+.left-footer-two-tabtwo{
+    display: flex;
+    border-bottom:1px solid;
+    justify-content: space-between;
+
+
+}
+
+.small-text{
+    font-size:0.9rem;
+}
+
+/*오른쪾*/
+.right{
+    display: flex;
+    flex:0.7;
+    flex-direction: column;
+}
+
+.right-main{
+    border: 4px solid white;
+    flex:2.1;
+    background: url("https://picsum.photos/seed/picsum/400/300");
+}
+
+
+.right-footer{
+    flex:1.1;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+    text-align: center;
+}
+
+.right-footer-one{
+    flex:1;
+    display: flex;
+
+}
+
+.right-footer-one div{
+    border: 1px solid;
+    flex:1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.right-footer-two{
+    display: flex;
+    flex:1;
+}
+
+.right-footer-two div{
+    border: 1px solid;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.rotate{
+    transform: rotate(14deg);
+}
+
